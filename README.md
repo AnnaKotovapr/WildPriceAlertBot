@@ -12,19 +12,19 @@
 - Python 3.9.10
 - Парсинг данных: Selenium, API Wildberries
 - База данных: SQLite или PostgreSQL
-- Уведомления: Telegram Bot Api
+- Уведомления: Python-telegram-bot
 
 
 ## Инструкция по запуску
 Клонировать репозиторий и перейти в него в командной строке:
 ```
-git@github.com:AnnaKotovapr/WildPriceAlertBot.git
+git clone git@github.com:AnnaKotovapr/WildPriceAlertBot.git
 cd WildPriceAlertBot
 ```
 Cоздать и активировать виртуальное окружение:
 ```
 python -m venv env
-source venv/bin/activate
+source venv/Scripts/activate
 ```
 Установить зависимости из файла requirements.txt:
 ```
